@@ -8,6 +8,8 @@ namespace Aisys.Utilities
 {
     public class Encryptor
     {    
+        public byte[] Salt = new byte[16];
+        
         public byte[] HashPassword(string password, byte[] salt)
         {
             var sha256 = new SHA256Managed();
