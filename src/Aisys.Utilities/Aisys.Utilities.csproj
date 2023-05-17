@@ -10,7 +10,7 @@
     <PackageTags>c#</PackageTags>
     <PackageProjectUrl>https://github.com/aisyshk/Aisys</PackageProjectUrl>
     <Description>Utilities for use by https://github.com/aisyshk</Description>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Authors>aisys</Authors>
     <Copyright>2023 aisyshk</Copyright>
   </PropertyGroup>

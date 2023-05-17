@@ -8,7 +8,7 @@ namespace Aisys.Utilities
 {
     public class IdUtility
     {
-        public static string AlphaNumericalByLength(int length)
+        public static string AlphanumericByLength(int length)
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890-_.~";
 
