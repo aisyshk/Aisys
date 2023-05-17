@@ -10,7 +10,7 @@ namespace Aisys.Utilities
     {
         public static string AlphaNumericalByLength(int length)
         {
-            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*().,/-";
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890-_.~";
 
             return new string(Enumerable.Repeat(chars, length).Select(x => x[new Random().Next(x.Length)]).ToArray());
         }
